@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "webpack"
   },
-  "dependencies": {},
+  "dependencies": {
+    "three": "^0.173.0"
+  },
   "devDependencies": {
-    "typescript": "^5.5.3"
-  },
-  "private": true
+    "@types/three": "^0.173.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
 }
