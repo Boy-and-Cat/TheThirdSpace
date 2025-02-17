@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "clean": "rm -rf dist",
+    "release": "npm run clean && npm run build && git add dist/app.bundle.js"
   },
   "dependencies": {
     "three": "^0.173.0"

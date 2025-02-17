@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-window.addEventListener('DOMContentLoaded',function () {
+window.addEventListener('DOMContentLoaded', function () {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
